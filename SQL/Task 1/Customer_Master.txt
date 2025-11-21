@@ -1,0 +1,121 @@
+{
+  "values": [
+    {
+      "contactkey": "1001",
+      "FirstName": "Christy",
+      "Email": "christy37@gmail.com",
+      "Region": "UK",
+      "Email_Consent": true,
+      "LastPurchaseDate": "2025-03-03"
+    },
+    {
+      "contactkey": "1002",
+      "FirstName": "Cynthia",
+      "Email": "cynthia90@yahoo.com",
+      "Region": "NZ",
+      "Email_Consent": false,
+      "LastPurchaseDate": "2024-09-13"
+    },
+    {
+      "contactkey": "1003",
+      "FirstName": "amanda",
+      "Email": "amanda43@gmail.com",
+      "Region": "US",
+      "Email_Consent": false,
+      "LastPurchaseDate": "2024-11-17"
+    },
+    {
+      "contactkey": "1004",
+      "FirstName": "Alexander",
+      "Email": "alexander11@yahoo.com",
+      "Region": "UK",
+      "Email_Consent": false,
+      "LastPurchaseDate": null
+    },
+    {
+      "contactkey": "1005",
+      "FirstName": "RICKY",
+      "Email": "ricky59@hotmail.com",
+      "Region": "AU",
+      "Email_Consent": false,
+      "LastPurchaseDate": "2025-03-01"
+    },
+    {
+      "contactkey": "1006",
+      "FirstName": "Patricia",
+      "Email": "patricia95@gmail.com",
+      "Region": "NZ",
+      "Email_Consent": false,
+      "LastPurchaseDate": "2024-10-28"
+    },
+    {
+      "contactkey": "1007",
+      "FirstName": "Brooke",
+      "Email": "brooke25@gmail.com",
+      "Region": "UK",
+      "Email_Consent": true,
+      "LastPurchaseDate": "2025-02-03"
+    },
+    {
+      "contactkey": "1008",
+      "FirstName": "ashley",
+      "Email": "ashley96@yahoo.com",
+      "Region": "US",
+      "Email_Consent": false,
+      "LastPurchaseDate": "2024-09-13"
+    },
+    {
+      "contactkey": "1009",
+      "FirstName": "cindy",
+      "Email": "cindy26@yahoo.com",
+      "Region": "US",
+      "Email_Consent": true,
+      "LastPurchaseDate": "2025-05-04"
+    },
+    {
+      "contactkey": "1010",
+      "FirstName": "Alvin",
+      "Email": "alvin41@yahoo.com",
+      "Region": "NZ",
+      "Email_Consent": false,
+      "LastPurchaseDate": "2024-11-22"
+    }
+  ],
+  "fieldsDefinition": [
+    {
+      "Name": "FirstName",
+      "CustomerKey": "FirstName",
+      "FieldType": "Text",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "Name": "Email",
+      "CustomerKey": "Email",
+      "FieldType": "EmailAddress",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "Name": "Region",
+      "CustomerKey": "Region",
+      "FieldType": "Text",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "Name": "Email_Consent",
+      "CustomerKey": "Email_Consent",
+      "FieldType": "Boolean",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    },
+    {
+      "Name": "LastPurchaseDate",
+      "CustomerKey": "LastPurchaseDate",
+      "FieldType": "Date",
+      "IsRequired": false,
+      "IsPrimaryKey": false
+    }
+  ]
+}
